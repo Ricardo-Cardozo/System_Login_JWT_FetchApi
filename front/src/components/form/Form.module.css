@@ -1,0 +1,16 @@
+.formContainer {
+  margin: 2em auto;
+  border:1px solid #000;
+  border-radius: 15px;
+  padding: 2em;
+  text-align: start;
+}
+
+.formContainer p {
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.formContainer a {
+  color: rgb(111, 62, 184);
+}

@@ -1,0 +1,33 @@
+.close {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 1000;
+  top: 0;
+  margin: 1rem;
+  position: fixed;
+  font-size: 50px;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {left:-500px; opacity:0} 
+  to {left:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {left:-500px; opacity:0}
+  to {left:0; opacity:1}
+}

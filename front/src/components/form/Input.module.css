@@ -1,0 +1,40 @@
+.formControl {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.formControl label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.formControl input {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.formControl input[type = 'submit'] {
+  background-color: rgb(17, 206, 17);
+  border: transparent;
+  cursor: pointer;
+  margin-top: 1.5em;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  transition: .5s;
+}
+
+.formControl input[type = 'submit']:hover {
+  background-color: rgb(8, 174, 8);
+  border: transparent;
+  cursor: pointer;
+  margin-top: 1.5em;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}

@@ -1,0 +1,26 @@
+.sideDrawer {
+  width: 70%;
+  height: 100%;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  z-index: 500;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {left:-500px; opacity:0} 
+  to {left:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {left:-500px; opacity:0}
+  to {left:0; opacity:1}
+}
